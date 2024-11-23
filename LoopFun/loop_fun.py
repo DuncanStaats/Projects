@@ -6,6 +6,7 @@ Description: Work with Loops to understand them better
 '''
 
 def main():
+
     # Part 1 - get user input
     while True:
         try:
@@ -56,8 +57,9 @@ def main():
 
     # Part 4 - print the triangular shape
     for row in range(1, height + 1):
-        for star in range(2 * row):
+        for stars in range(2 * row):
             print("*", end="")
+            
         print()
 
 if __name__ == "__main__":
